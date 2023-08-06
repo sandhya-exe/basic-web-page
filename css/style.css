@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=PT+Sans+Narrow&family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=PT+Sans+Narrow&family=Padauk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Merriweather+Sans:wght@500&family=PT+Sans+Narrow&family=Padauk:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 2px solid grey;
+    border-radius: 54px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+
+}
+
+.nav-list{
+    /* background-color: black; */
+    width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px 25px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+
+.rightnav{
+    /* background-color: yellowgreen; */
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+
+}
+
+#search{
+
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/apobg.jpg');
+    background-size: cover ;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+    width: 100% ;       
+      /* ~~by me */
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 57%;
+    margin: auto ;
+    height: 80%;
+}
+
+.first-half{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 95px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+
+
+    
+}
+
+.second-half{
+    width: 30%;
+    margin-top: 61px;
+
+}
+.second-half img{
+    width: 100%;
+    padding: 0;
+    border: 2px solid grey;
+    border-radius: 146px;
+    display: block;
+    margin: auto;;
+}
+
+.text-big{
+    font-size: 37px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bolder;
+    padding: 7px;
+
+}
+
+.text-small{
+    font-size: 18px;
+    padding: 13px;
+    font-weight: bold;
+
+}
+
+.btn{
+    padding: 3px 16px;
+    margin: 7px 14px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+
+}
+
+.button-dark{
+    color: black;
+    border: 2px solid rgb(85, 83, 83);
+}
+.section{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+                /* font-family: 'Gowun Dodum', sans-serif; */
+    font-family: 'Padauk', sans-serif;
+/* font-family: 'PT Sans Narrow', sans-serif; */
+}
+
+.sectionTag{
+    padding: 16px 6px;
+
+}
+.left{
+    flex-direction: row-reverse;
+}
+
+.imgfluid{
+    width: 130%;
+}
+.paras{
+    padding: 0px 65px;                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 47px;
+
+}
+/* font-family: 'Gowun Dodum', sans-serif; */
+/* font-family: 'Padauk', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+.contact{
+
+    background-color: rgb(244 243 243);
+    height: 130vh;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bolder;
+    font-size: 46px;
+}
+
+.form{
+    max-width: 40%;
+    margin: 25px auto;
+
+}
+
+.form-input{
+    width: 100%;
+    margin: 15px 0px;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 6px 11px;
+    font-family: 'Gowun Dodum', sans-serif;
+    
+
+}
+
+.text-footer{
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 6%;
+    top: 23%;
+
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px ;
+}
+
+@media only screen and (max-width: 1166px){
+    .nav-list{
+        flex-direction: column;
+    }    
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 429px;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+        /* top: 9%; */
+    }
+    .h-nav-resp{
+        height:  80px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: left;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .firstsection{
+        height: 110vh;
+    }
+    .first-half{
+        margin-top: 11px;
+    }
+}
